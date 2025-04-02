@@ -5,12 +5,22 @@ import { Memory } from "@mastra/memory";
 
 const memory = new Memory();
 
+// メモリ機能のテスト用
 // const memory = new Memory({
 //   options: {
 //     // Number of recent messages to include (false to disable)
 //     lastMessages: 1,
 //     // Configure vector-based semantic search (false to disable)
 //     semanticRecall: false,
+//   },
+// });
+
+// ワーキングメモリのテスト用
+// const memory = new Memory({
+//   options: {
+//     workingMemory: {
+//       enabled: true, // enables working memory
+//     },
 //   },
 // });
 
